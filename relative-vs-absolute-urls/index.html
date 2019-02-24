@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Relative vs. Absolute URLs</title>
+    <!-- Relative link -->
+    <link rel="stylesheet" type="text/css" href="main.css"> 
+</head>
+<body>
+
+<!-- relative -->
+<img src="puppy.jpg">
+
+<!-- relative -->
+<img src="img/dog.jpg">
+
+<!-- relative -->
+<img src="../img/pup.jpg">
+
+<!-- absolute -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Terrier_mixed-breed_dog.jpg/440px-Terrier_mixed-breed_dog.jpg">
+
+<!-- absolute -->
+<!-- Can't really do absolute without an actual web server, so this doesn't work when just opening this file locally because there is no concept of root here -->
+<img src="/img/pup.jpg">
+
+</body>
+</html>
